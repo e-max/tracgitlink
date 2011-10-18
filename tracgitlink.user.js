@@ -5,9 +5,7 @@
 // @include       http://dev-trac.netstream.ru/*
 // ==/UserScript==
 
-alert('test');
 res = document.getElementsByTagName('a');
-alert(res.length);
 var len = res.length;
 for(var i=0; i<len; i++) {
 	if (res[i].classList[0] == 'missing' & res[i].classList[1] == 'changeset') {
